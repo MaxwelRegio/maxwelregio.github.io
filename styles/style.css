@@ -1,0 +1,40 @@
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#name {
+  text-shadow: 2px 2px 5px gray;
+}
+
+.important {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.skills-list {
+  list-style-type: square;
+}
+
+.cv-container {
+  display: flex;
+}
+
+.column{
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+
+  .cv-container{
+    flex-direction: column;
+  }
+}
+
+.linkedin {
+  text-align: center;
+  margin-top: 20px;
+}
